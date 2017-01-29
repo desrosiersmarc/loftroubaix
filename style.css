@@ -23,10 +23,6 @@ img {
   height: 200px;
 }
 
-img:hover {
-  height: 250px;
-}
-
 .a_page {
   text-decoration: none;
   color: #FF1494;
@@ -58,15 +54,6 @@ th {
 td {
   font-style: italic;
   width: 200px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.container ul li {
-  display: inline;
 }
 
 .container {
@@ -130,9 +117,22 @@ ul {
   line-height: 5em;
 }
 
+#sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sidebar ul li {
+  /*display: inline;*/
+  color:red;
+}
+
 .filter_div {
   background-color: rgba(9, 9, 9, 0.5);
   border-radius: 5px;
   height: 100%;
   width: 100%;
 }
+
+
+
