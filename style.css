@@ -36,7 +36,7 @@ img {
 
 .a_sidebar {
   text-decoration: none;
-  color: #888;
+  color: #FF1494;
   font-size: 1.5em;
 }
 
@@ -120,11 +120,6 @@ td {
 #sidebar ul {
   list-style: none;
   padding-left: 0;
-}
-
-#sidebar ul li {
-  /*display: inline;*/
-  color:red;
 }
 
 .filter_div {
