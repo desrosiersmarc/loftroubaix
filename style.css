@@ -134,5 +134,16 @@ td {
   width: 100%;
 }
 
+.height-pictures-carousel {
+  height: 300px;
+  justify-content: center;
+}
 
+.img-height {
+  height: 300px;
+}
 
+.center-picture {
+  justify-content: center;
+  background-color: #D9D9D9;
+}
