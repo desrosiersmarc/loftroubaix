@@ -26,23 +26,23 @@ img {
 
 .a_page {
   text-decoration: none;
-  color: #FF1494;
+  color: #FFF;
   font-size: 1.5em;
 }
 
 .a_page:hover {
-  color: #5B247F;
+  color: #FF1494;
   font-size: 3em;
 }
 
 .a_sidebar {
   text-decoration: none;
-  color: #FF1494;
+  color: #FFF;
   font-size: 1.5em;
 }
 
 .a_sidebar:hover {
-  color: #FFF;
+  color: #FF1494;
   font-size: 3em;
 }
 
@@ -111,7 +111,7 @@ td {
 
 #sidebar {
   position: fixed;
-  width: 150px;
+  width: 20%;
   background-color: #384047;
   left: 0;
   top: 0;
@@ -125,14 +125,13 @@ td {
 }
 
 #sidebar-mobile {
-  height: 70px;
+  height: 60px;
   width: 100%;
   line-height: 50px;
   text-align: center;
   position: fixed;
   bottom:0;
   background-color: #384047;
-  margin:-15px;
 }
 
 #sidebar-mobile ul {
