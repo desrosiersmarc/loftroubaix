@@ -3,6 +3,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1em;
   background-color: #E5E4E2;
+  position: relative;
 
 }
 
@@ -25,23 +26,23 @@ img {
 
 .a_page {
   text-decoration: none;
-  color: #FF1494;
+  color: #FFF;
   font-size: 1.5em;
 }
 
 .a_page:hover {
-  color: #5B247F;
+  color: #FF1494;
   font-size: 3em;
 }
 
 .a_sidebar {
   text-decoration: none;
-  color: #FF1494;
+  color: #FFF;
   font-size: 1.5em;
 }
 
 .a_sidebar:hover {
-  color: #FFF;
+  color: #FF1494;
   font-size: 3em;
 }
 
@@ -57,12 +58,7 @@ td {
 }
 
 .container-div {
-  width: 80%;
-  margin-left: 300px;
-  margin: auto;
-  margin-left: 150px;
-  min-width: 500px;
-  padding: 10px;
+
 }
 
 .img_border_shadow_ {
@@ -107,9 +103,10 @@ td {
 .space_text_letter {
   letter-spacing: 30px;
 }
+
 #sidebar {
   position: fixed;
-  width: 150px;
+  width: 20%;
   background-color: #384047;
   left: 0;
   top: 0;
@@ -120,6 +117,28 @@ td {
 #sidebar ul {
   list-style: none;
   padding-left: 0;
+}
+
+#sidebar-mobile {
+  height: 60px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  bottom:0;
+  background-color: #384047;
+}
+
+#sidebar-mobile ul {
+  list-style: none;
+  padding-left:0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#sidebar-mobile a {
+  font-size: 30px;
+  color: #FFF;
 }
 
 .filter_div {
@@ -141,4 +160,15 @@ td {
 .center-picture {
   justify-content: center;
   background-color: #D9D9D9;
+}
+
+.padding-down {
+  margin-bottom: 70px;
+}
+
+.cardmd {
+  min-height: 50px;
+  background-color: red;
+  padding:0;
+  margin:0;
 }
