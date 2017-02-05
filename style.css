@@ -86,7 +86,7 @@ td {
 }
 
 .div_backgroung_nyc {
-  background: url("images/nyc.jpg");
+  background: url("images/loft0.jpg");
   background-size: 100%;
 }
 
@@ -127,6 +127,7 @@ td {
   position: fixed;
   bottom:0;
   background-color: #384047;
+  margin-left: -15px;
 }
 
 #sidebar-mobile ul {
