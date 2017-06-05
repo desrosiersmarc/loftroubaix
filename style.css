@@ -57,6 +57,15 @@ td {
   width: 200px;
 }
 
+.first-div {
+  text-align: center;
+
+}
+
+.first-img {
+  height: 300px;
+}
+
 .container-div {
 
 }
@@ -172,4 +181,8 @@ td {
   background-color: red;
   padding:0;
   margin:0;
+}
+
+#question {
+  text-align: center;
 }
